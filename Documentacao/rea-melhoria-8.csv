@@ -1,0 +1,9 @@
+﻿Área,Melhoria,Benefício
+Observabilidade,Adicionar OpenTelemetry e HealthChecks,"Monitorar tempo de resposta, falhas e métricas de fila"
+Resiliência,Implementar Retry e Circuit Breaker no Worker (via Polly),Evita falhas transitórias e sobrecarga
+Mensageria,Usar Dead Letter Queue (DLQ) no RabbitMQ,Garante que mensagens com erro não se percam
+Escalabilidade,Configurar Horizontal Scaling do Worker,Permite processar milhares de comandos simultaneamente
+Segurança,Adicionar JWT ou API Key na API,Protege endpoints de requisições indevidas
+Domínio,Aplicar Domain Events dentro do Core,Facilita rastrear ações e integrar com outros serviços
+Infraestrutura,"Usar Docker Compose com dependências (RabbitMQ, Worker, API)",Simplifica deploy e testes locais
+Logs estruturados,Integrar Serilog + Seq,Facilita rastreamento de requisições e correlação entre API e Worker
