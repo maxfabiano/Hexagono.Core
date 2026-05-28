@@ -1,0 +1,6 @@
+@Solucao.Api_HostAddress = http://localhost:5260
+
+GET {{Solucao.Api_HostAddress}}/calcular/
+Accept: application/json
+
+###

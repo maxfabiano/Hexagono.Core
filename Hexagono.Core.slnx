@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Itens de Solução/">
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Project Path="Hexagono.Core/Hexagono.Core.csproj" />
+  <Project Path="Infra.Mensageria/Infra.Mensageria.csproj" />
+  <Project Path="Solucao.Api/Solucao.Api.csproj" />
+  <Project Path="Utils/Utils.csproj" />
+  <Project Path="Works/Works.csproj" />
+</Solution>
